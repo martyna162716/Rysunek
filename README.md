@@ -13,7 +13,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 class Surface extends JPanel {
-    
+
     private void doDrawing(Graphics g) {
         
         Graphics2D g2d = (Graphics2D) g.create();
