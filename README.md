@@ -1,5 +1,8 @@
 # Rysunek
 
+// Moim rysunkiem 2D będzie niebieski latawiec. Latawiec zaczynam od narysowania dwóch linii: jednej pionowej-dłuższej, drugiej poziomej-krótszej (linie te są prostopadłe). Następnie łączę linie te w trójkąty, dwa mniejsze i dwa większe. Na końcu dorysowuję czerwoną linię, czyli sznurek, za który można trzymać latawiec.
+
+
 package rysunek;
 
 import java.awt.EventQueue;
