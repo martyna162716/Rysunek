@@ -1,10 +1,6 @@
 # Rysunek
 package rysunek;
 
-/**
- *
- * @author Martyna
- */
 
 import java.awt.EventQueue;
 import java.awt.Color;
