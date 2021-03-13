@@ -1,7 +1,6 @@
 # Rysunek
 package rysunek;
 
-
 import java.awt.EventQueue;
 import java.awt.Color;
 import java.awt.Graphics;
