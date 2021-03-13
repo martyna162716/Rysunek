@@ -1,6 +1,6 @@
 # Rysunek
 
-// Moim rysunkiem 2D będzie niebieski latawiec. Latawiec zaczynam od narysowania dwóch linii: jednej pionowej-dłuższej, drugiej poziomej-krótszej (linie te są prostopadłe). Następnie łączę linie te w trójkąty, dwa mniejsze i dwa większe. Na końcu dorysowuję czerwoną linię, czyli sznurek, za który można trzymać latawiec.
+// Moim rysunkiem 2D będzie niebieski latawiec.
 
 
 package rysunek;
@@ -17,12 +17,20 @@ class Surface extends JPanel {
     private void doDrawing(Graphics g) {
         
         Graphics2D g2d = (Graphics2D) g.create();
+        
+// rysowanie dwóch linii:
+// jedna pionowa-dłuższa: 
 
         g2d.setPaint(Color.blue);
         g2d.drawLine(120, 5, 120, 230);
+        
+// druga pozioma-krótsza: 
+
         g2d.setPaint(Color.blue);
         g2d.drawLine(40, 70, 200, 70);
-        
+       
+// łączenie linii w trójkąty: dwa mniejsze i dwa większe:
+      
         g2d.setPaint(Color.blue);
         g2d.drawLine(120, 5, 40, 70);    
         g2d.setPaint(Color.blue);
@@ -32,9 +40,11 @@ class Surface extends JPanel {
         g2d.setPaint(Color.blue);
         g2d.drawLine(200, 70, 120, 230);
         
+// narysowanie czerwonej linii, czyli sznurka, za który można trzymać latawiec:
+            
         g2d.setPaint(Color.red);
         g2d.drawLine(120, 230, 120, 290);
-        
+      
         
         g2d.dispose();
      
