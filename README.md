@@ -1,10 +1,13 @@
 # Rysunek
 
-// Moim rysunkiem 2D będzie niebieski latawiec.
-
 
 package rysunek;
 
+/**
+ *
+ * @author Martyna
+ */
+ 
 import java.awt.EventQueue;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -18,18 +21,11 @@ class Surface extends JPanel {
         
         Graphics2D g2d = (Graphics2D) g.create();
         
-// rysowanie dwóch linii:
-// jedna pionowa-dłuższa: 
-
         g2d.setPaint(Color.blue);
         g2d.drawLine(120, 5, 120, 230);
-        
-// druga pozioma-krótsza: 
-
+       
         g2d.setPaint(Color.blue);
         g2d.drawLine(40, 70, 200, 70);
-       
-// łączenie linii w trójkąty: dwa mniejsze i dwa większe:
       
         g2d.setPaint(Color.blue);
         g2d.drawLine(120, 5, 40, 70);    
@@ -39,13 +35,10 @@ class Surface extends JPanel {
         g2d.drawLine(40, 70, 120, 230);
         g2d.setPaint(Color.blue);
         g2d.drawLine(200, 70, 120, 230);
-        
-// narysowanie czerwonej linii, czyli sznurka, za który można trzymać latawiec:
-            
+          
         g2d.setPaint(Color.red);
         g2d.drawLine(120, 230, 120, 290);
-      
-        
+            
         g2d.dispose();
      
     }
@@ -85,7 +78,9 @@ public class GradientsEx extends JFrame {
 }
 
 
-![Zrzut ekranu (358)](https://user-images.githubusercontent.com/80594097/111124389-c30a5e00-8570-11eb-8d14-71f67b09a86f.png)
 
+// Moim rysunkiem 2D jest niebieski latawiec. Rysunek zaczynam od narysowania dwóch linii: poziomej-krótszej i pionowej-dłuższej. Linie te są prostopadłe. Następnie linie te łączę ze sobą w taki sposób, że powstają 4 trójkąty prostokątne, dwa mniejsze i dwa większe. Na sam koniec dorysowuję czerwoną linię, czyli sznurek, za który można trzymać latawiec.
+
+![Zrzut ekranu (359)](https://user-images.githubusercontent.com/80594097/111125171-9d318900-8571-11eb-87f0-4c768449cc66.png)
 
 
