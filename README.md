@@ -83,3 +83,9 @@ public class GradientsEx extends JFrame {
         });
     }    
 }
+
+
+![Zrzut ekranu (358)](https://user-images.githubusercontent.com/80594097/111124389-c30a5e00-8570-11eb-8d14-71f67b09a86f.png)
+
+
+
